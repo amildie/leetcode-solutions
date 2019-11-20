@@ -1,4 +1,4 @@
-# # https://leetcode.com/problems/unique-number-of-occurrences/
+# https://leetcode.com/problems/unique-number-of-occurrences/
 
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
@@ -8,7 +8,7 @@ class Solution:
             if k in occ:
                 occ[k] += 1
             else:
-                occ[k] = 0
+                occ[k] = 1
         
         vals = []
         for k, v in occ.items():
