@@ -11,7 +11,7 @@ class Solution:
         row0 = "qwertyuiop"
         row1 = "asdfghjkl"
         row2 = "zxcvbnm"
-        res = []o
+        res = []
         for word in words:
             if self.allInRow(word, row0) or self.allInRow(word, row1) or self.allInRow(word, row2):
                 res.append(word)
